@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="pine.test.myMain.TestOne">
+        <methods>
+          <include name="PVMAssociationTest"/>
+          <include name="MerchantApprovalTest"/>
+          <include name="setUp"/>
+          <include name="TestMerchantCreation"/>
+          <include name="ToVerifyStoreCreation"/>
+          <include name="ToVerifyStoreApproval"/>
+          <include name="tearDown"/>
+          <include name="LoginPageTest"/>
+          <include name="TerminalCreationTest"/>
+          <include name="PVMUploadTest"/>
+        </methods>
+      </class> <!-- pine.test.myMain.TestOne -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
