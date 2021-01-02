@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-30T17:41:04 IST" name="Default suite" finished-at="2020-09-30T17:59:19 IST" duration-ms="1095092">
+    <groups>
+    </groups>
+    <test started-at="2020-09-30T17:41:04 IST" name="Default test" finished-at="2020-09-30T17:59:19 IST" duration-ms="1095092">
+      <class name="pine.test.myMain.TestOne">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:41:04 IST" name="setUp" finished-at="2020-09-30T17:41:20 IST" duration-ms="16505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginPageTest(java.lang.String, java.lang.String)[pri:1, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:41:21 IST" name="LoginPageTest" data-provider="Authentication" finished-at="2020-09-30T17:41:35 IST" duration-ms="14328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gunjan1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTest -->
+        <test-method signature="TestMerchantCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:41:35 IST" name="TestMerchantCreation" data-provider="Authentication" finished-at="2020-09-30T17:42:17 IST" duration-ms="42044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gunjan1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoMerchant_14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Candor Techspace]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[201010]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMerchantCreation -->
+        <test-method signature="MerchantApprovalTest(java.lang.String, java.lang.String)[pri:3, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:42:17 IST" name="MerchantApprovalTest" data-provider="Authentication" finished-at="2020-09-30T17:43:17 IST" depends-on-methods="pine.test.myMain.TestOne.TestMerchantCreation" duration-ms="59465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user8888]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwert@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MerchantApprovalTest -->
+        <test-method signature="ToVerifyStoreCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:43:17 IST" name="ToVerifyStoreCreation" data-provider="Authentication" finished-at="2020-09-30T17:44:14 IST" depends-on-methods="pine.test.myMain.TestOne.MerchantApprovalTest" duration-ms="57032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gunjan1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoMerchant_14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[201010]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToVerifyStoreCreation -->
+        <test-method signature="ToVerifyStoreApproval(java.lang.String, java.lang.String)[pri:5, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:44:14 IST" name="ToVerifyStoreApproval" data-provider="Authentication" finished-at="2020-09-30T17:45:18 IST" depends-on-methods="pine.test.myMain.TestOne.ToVerifyStoreCreation" duration-ms="64384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user8888]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwert@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToVerifyStoreApproval -->
+        <test-method signature="TerminalCreationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:45:18 IST" name="TerminalCreationTest" data-provider="Authentication" finished-at="2020-09-30T17:46:47 IST" depends-on-methods="pine.test.myMain.TestOne.ToVerifyStoreApproval" duration-ms="88098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gunjan1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ICT220-INGENICO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ICT220-11T3621A]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lalit.xml]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[EDC Printer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1184706]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1025033]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminalCreationTest -->
+        <test-method signature="TerminalCreationTestPAX(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:46:47 IST" name="TerminalCreationTestPAX" data-provider="Authentication" finished-at="2020-09-30T17:48:10 IST" depends-on-methods="pine.test.myMain.TestOne.ToVerifyStoreApproval" duration-ms="83642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user8888]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwert@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PAX A920-ANDROID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A920 PAX]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lalit.xml]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[EDC Printer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1184698]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1183832]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminalCreationTestPAX -->
+        <test-method signature="TerminalCreationTestVerifone(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:48:10 IST" name="TerminalCreationTestVerifone" data-provider="Authentication" finished-at="2020-09-30T17:49:31 IST" depends-on-methods="pine.test.myMain.TestOne.ToVerifyStoreApproval" duration-ms="81021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user8888]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwert@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vx510-VERIFONE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vx520 VERIFONE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lalit.xml]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[EDC Printer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1184696]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1183834]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TerminalCreationTestVerifone -->
+        <test-method signature="TIDCreationdefault(java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:49:31 IST" name="TIDCreationdefault" data-provider="Authentication" finished-at="2020-09-30T17:50:16 IST" depends-on-methods="pine.test.myMain.TestOne.TerminalCreationTestVerifone" duration-ms="44428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HDFC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Default]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TIDCreationdefault -->
+        <test-method signature="TIDCreationLR(java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:50:16 IST" name="TIDCreationLR" data-provider="Authentication" finished-at="2020-09-30T17:50:56 IST" depends-on-methods="pine.test.myMain.TestOne.TerminalCreationTestVerifone" duration-ms="40555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HDFC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Loan Recovery Only]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TIDCreationLR -->
+        <test-method signature="TIDCreationLRwithNormal(java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:50:56 IST" name="TIDCreationLRwithNormal" data-provider="Authentication" finished-at="2020-09-30T17:51:38 IST" depends-on-methods="pine.test.myMain.TestOne.TerminalCreationTestVerifone" duration-ms="41475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HDFC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Loan Recovery + Normal Acquiring]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TIDCreationLRwithNormal -->
+        <test-method signature="TIDCreationBANKEMI(java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:51:38 IST" name="TIDCreationBANKEMI" data-provider="Authentication" finished-at="2020-09-30T17:52:17 IST" depends-on-methods="pine.test.myMain.TestOne.TerminalCreationTestVerifone" duration-ms="39395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HDFC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BANK EMI ONLY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TIDCreationBANKEMI -->
+        <test-method signature="TIDCreationICICLRNM(java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:52:17 IST" name="TIDCreationICICLRNM" data-provider="Authentication" finished-at="2020-09-30T17:52:58 IST" depends-on-methods="pine.test.myMain.TestOne.TerminalCreationTestVerifone" duration-ms="40323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ICICI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Loan Recovery + Normal Acquiring]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TIDCreationICICLRNM -->
+        <test-method signature="BlockTid()[pri:14, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:52:58 IST" name="BlockTid" finished-at="2020-09-30T17:53:23 IST" depends-on-methods="pine.test.myMain.TestOne.TerminalCreationTestVerifone" duration-ms="25038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlockTid -->
+        <test-method signature="PVMUploadTest()[pri:15, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:53:23 IST" name="PVMUploadTest" finished-at="2020-09-30T17:53:54 IST" duration-ms="31169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PVMUploadTest -->
+        <test-method signature="PVMAssociationTest()[pri:16, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:53:54 IST" name="PVMAssociationTest" finished-at="2020-09-30T17:54:28 IST" depends-on-methods="pine.test.myMain.TestOne.TerminalCreationTest" duration-ms="34277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PVMAssociationTest -->
+        <test-method signature="RuleUploadTest()[pri:17, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:54:28 IST" name="RuleUploadTest" finished-at="2020-09-30T17:54:58 IST" duration-ms="29651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RuleUploadTest -->
+        <test-method signature="RuleAssociationTest()[pri:18, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:54:58 IST" name="RuleAssociationTest" finished-at="2020-09-30T17:55:30 IST" depends-on-methods="pine.test.myMain.TestOne.TerminalCreationTest" duration-ms="31990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RuleAssociationTest -->
+        <test-method signature="UserManagement()[pri:19, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:55:30 IST" name="UserManagement" finished-at="2020-09-30T17:55:46 IST" duration-ms="16387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserManagement -->
+        <test-method signature="BinUploadTest()[pri:20, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:55:46 IST" name="BinUploadTest" finished-at="2020-09-30T17:56:16 IST" duration-ms="29889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BinUploadTest -->
+        <test-method signature="BinAssociationTest()[pri:21, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:56:16 IST" name="BinAssociationTest" finished-at="2020-09-30T17:56:49 IST" depends-on-methods="pine.test.myMain.TestOne.TerminalCreationTest" duration-ms="33307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BinAssociationTest -->
+        <test-method signature="POSupdate()[pri:22, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:56:49 IST" name="POSupdate" finished-at="2020-09-30T17:58:24 IST" duration-ms="94709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POSupdate -->
+        <test-method signature="BankTIDRegisteration()[pri:23, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:58:24 IST" name="BankTIDRegisteration" finished-at="2020-09-30T17:59:04 IST" duration-ms="40117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BankTIDRegisteration -->
+        <test-method signature="SubSystemOnStore()[pri:24, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:59:04 IST" name="SubSystemOnStore" finished-at="2020-09-30T17:59:19 IST" duration-ms="14348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubSystemOnStore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pine.test.myMain.TestOne@193f604a]" started-at="2020-09-30T17:59:19 IST" name="tearDown" finished-at="2020-09-30T17:59:19 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pine.test.myMain.TestOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

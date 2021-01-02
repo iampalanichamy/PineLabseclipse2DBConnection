@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 30 17:41:04 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1095 seconds (1095092 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pine.test.myMain.TestOne.BankTIDRegisteration()'><b>BankTIDRegisteration</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>40</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.BinAssociationTest()'><b>BinAssociationTest</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>33</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.BinUploadTest()'><b>BinUploadTest</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>29</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.BlockTid()'><b>BlockTid</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>25</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.LoginPageTest()'><b>LoginPageTest</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: gunjan1234, Pass@2020</td>
+<td></td>
+<td>14</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.MerchantApprovalTest()'><b>MerchantApprovalTest</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: user8888, Qwert@123</td>
+<td></td>
+<td>59</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.POSupdate()'><b>POSupdate</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>94</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.PVMAssociationTest()'><b>PVMAssociationTest</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>34</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.PVMUploadTest()'><b>PVMUploadTest</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>31</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.RuleAssociationTest()'><b>RuleAssociationTest</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>31</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.RuleUploadTest()'><b>RuleUploadTest</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>29</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.SubSystemOnStore()'><b>SubSystemOnStore</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>14</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.TIDCreationBANKEMI()'><b>TIDCreationBANKEMI</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: HDFC, BANK EMI ONLY, Normal</td>
+<td></td>
+<td>39</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.TIDCreationICICLRNM()'><b>TIDCreationICICLRNM</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: ICICI, Loan Recovery + Normal Acquiring, Normal</td>
+<td></td>
+<td>40</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.TIDCreationLR()'><b>TIDCreationLR</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: HDFC, Loan Recovery Only, Normal</td>
+<td></td>
+<td>40</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.TIDCreationLRwithNormal()'><b>TIDCreationLRwithNormal</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: HDFC, Loan Recovery + Normal Acquiring, Normal</td>
+<td></td>
+<td>41</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.TIDCreationdefault()'><b>TIDCreationdefault</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: HDFC, Default, Normal</td>
+<td></td>
+<td>44</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.TerminalCreationTest()'><b>TerminalCreationTest</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: gunjan1234, Pass@2020, ICT220-INGENICO, ICT220-11T3621A, Lalit.xml, EDC Printer, 48, 1184706, 1025033</td>
+<td></td>
+<td>88</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.TerminalCreationTestPAX()'><b>TerminalCreationTestPAX</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: user8888, Qwert@123, PAX A920-ANDROID, A920 PAX, Lalit.xml, EDC Printer, 48, 1184698, 1183832</td>
+<td></td>
+<td>83</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.TerminalCreationTestVerifone()'><b>TerminalCreationTestVerifone</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: user8888, Qwert@123, Vx510-VERIFONE, Vx520 VERIFONE, Lalit.xml, EDC Printer, 48, 1184696, 1183834</td>
+<td></td>
+<td>81</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.TestMerchantCreation()'><b>TestMerchantCreation</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: gunjan1234, Pass@2020, DemoMerchant_14, Candor Techspace, 201010</td>
+<td></td>
+<td>42</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.ToVerifyStoreApproval()'><b>ToVerifyStoreApproval</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: user8888, Qwert@123</td>
+<td></td>
+<td>64</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.ToVerifyStoreCreation()'><b>ToVerifyStoreCreation</b><br>Test class: pine.test.myMain.TestOne<br>Parameters: gunjan1234, Pass@2020, DemoMerchant_14, Noida, 201010</td>
+<td></td>
+<td>57</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+<tr>
+<td title='pine.test.myMain.TestOne.UserManagement()'><b>UserManagement</b><br>Test class: pine.test.myMain.TestOne</td>
+<td></td>
+<td>16</td>
+<td>pine.test.myMain.TestOne@193f604a</td></tr>
+</table><p>
+</body>
+</html>

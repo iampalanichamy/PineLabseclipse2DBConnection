@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="pine.test.myMain.TestOne">
+        <methods>
+          <include name="TerminalCreationTestPAX"/>
+          <include name="TestMerchantCreation"/>
+          <include name="ToVerifyStoreApproval"/>
+          <include name="BinAssociationTest"/>
+          <include name="TIDCreationLRwithNormal"/>
+          <include name="tearDown"/>
+          <include name="TIDCreationLR"/>
+          <include name="PVMAssociationTest"/>
+          <include name="MerchantApprovalTest" invocation-numbers="0"/>
+          <include name="BlockTid"/>
+          <include name="setUp"/>
+          <include name="ToVerifyStoreCreation"/>
+          <include name="TerminalCreationTest"/>
+          <include name="RuleAssociationTest"/>
+          <include name="TIDCreationdefault"/>
+          <include name="TIDCreationBANKEMI"/>
+          <include name="TIDCreationICICLRNM"/>
+          <include name="TerminalCreationTestVerifone"/>
+        </methods>
+      </class> <!-- pine.test.myMain.TestOne -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\gunjan.varshney\AppData\Local\Temp\testng-eclipse-516709014\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="BankTIDRegisteration">BankTIDRegisteration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="BinAssociationTest">BinAssociationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="BinUploadTest">BinUploadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="BlockTid">BlockTid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="LoginPageTest(gunjan1234, Pass@2020)">LoginPageTest(gunjan1234, Pass@2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="MerchantApprovalTest(user8888, Qwert@123)">MerchantApprovalTest(user8888, Qwert@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="POSupdate">POSupdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="PVMAssociationTest">PVMAssociationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="PVMUploadTest">PVMUploadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="RuleAssociationTest">RuleAssociationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="RuleUploadTest">RuleUploadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="SubSystemOnStore">SubSystemOnStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="TIDCreationBANKEMI(HDFC, BANK EMI ONLY, Normal)">TIDCreationBANKEMI(HDFC, BANK EMI ONLY, Normal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="TIDCreationICICLRNM(ICICI, Loan Recovery + Normal Acquiring, Normal)">TIDCreationICICLRNM(ICICI, Loan Recovery + Normal Acquiring, Normal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="TIDCreationLR(HDFC, Loan Recovery Only, Normal)">TIDCreationLR(HDFC, Loan Recovery Only, Normal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="TIDCreationLRwithNormal(HDFC, Loan Recovery + Normal Acquiring, Normal)">TIDCreationLRwithNormal(HDFC, Loan Recovery + Normal Acquiring, Normal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="TIDCreationdefault(HDFC, Default, Normal)">TIDCreationdefault(HDFC, Default, Normal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="TerminalCreationTest(gunjan1234, Pass@2020, ICT220-INGENICO, ICT220-11T3621A, Lalit.xml, EDC Printer, 48, 1184706, 102503...)">TerminalCreationTest(gunjan1234, Pass@2020, ICT220-INGENICO, ICT220-11T3621A, Lalit.xml, EDC Printer, 48, 1184706, 102503...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="TerminalCreationTestPAX(user8888, Qwert@123, PAX A920-ANDROID, A920 PAX, Lalit.xml, EDC Printer, 48, 1184698, 1183832)">TerminalCreationTestPAX(user8888, Qwert@123, PAX A920-ANDROID, A920 PAX, Lalit.xml, EDC Printer, 48, 1184698, 1183832)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="TerminalCreationTestVerifone(user8888, Qwert@123, Vx510-VERIFONE, Vx520 VERIFONE, Lalit.xml, EDC Printer, 48, 1184696, 1183834)">TerminalCreationTestVerifone(user8888, Qwert@123, Vx510-VERIFONE, Vx520 VERIFONE, Lalit.xml, EDC Printer, 48, 1184696, 1183834)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="TestMerchantCreation(gunjan1234, Pass@2020, DemoMerchant_14, Candor Techspace, 201010)">TestMerchantCreation(gunjan1234, Pass@2020, DemoMerchant_14, Candor Techspace, 201010)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="ToVerifyStoreApproval(user8888, Qwert@123)">ToVerifyStoreApproval(user8888, Qwert@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="ToVerifyStoreCreation(gunjan1234, Pass@2020, DemoMerchant_14, Noida, 201010)">ToVerifyStoreCreation(gunjan1234, Pass@2020, DemoMerchant_14, Noida, 201010)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="pine.test.myMain.TestOne" class="method navigator-link" hash-for-method="UserManagement">UserManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pine.test.myMain.TestOne</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BankTIDRegisteration">
+                  </a> <!-- BankTIDRegisteration -->
+                  <span class="method-name">BankTIDRegisteration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BinAssociationTest">
+                  </a> <!-- BinAssociationTest -->
+                  <span class="method-name">BinAssociationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BinUploadTest">
+                  </a> <!-- BinUploadTest -->
+                  <span class="method-name">BinUploadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BlockTid">
+                  </a> <!-- BlockTid -->
+                  <span class="method-name">BlockTid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPageTest(gunjan1234, Pass@2020)">
+                  </a> <!-- LoginPageTest(gunjan1234, Pass@2020) -->
+                  <span class="method-name">LoginPageTest</span>
+                  <span class="parameters">(gunjan1234, Pass@2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MerchantApprovalTest(user8888, Qwert@123)">
+                  </a> <!-- MerchantApprovalTest(user8888, Qwert@123) -->
+                  <span class="method-name">MerchantApprovalTest</span>
+                  <span class="parameters">(user8888, Qwert@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="POSupdate">
+                  </a> <!-- POSupdate -->
+                  <span class="method-name">POSupdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PVMAssociationTest">
+                  </a> <!-- PVMAssociationTest -->
+                  <span class="method-name">PVMAssociationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PVMUploadTest">
+                  </a> <!-- PVMUploadTest -->
+                  <span class="method-name">PVMUploadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RuleAssociationTest">
+                  </a> <!-- RuleAssociationTest -->
+                  <span class="method-name">RuleAssociationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RuleUploadTest">
+                  </a> <!-- RuleUploadTest -->
+                  <span class="method-name">RuleUploadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubSystemOnStore">
+                  </a> <!-- SubSystemOnStore -->
+                  <span class="method-name">SubSystemOnStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TIDCreationBANKEMI(HDFC, BANK EMI ONLY, Normal)">
+                  </a> <!-- TIDCreationBANKEMI(HDFC, BANK EMI ONLY, Normal) -->
+                  <span class="method-name">TIDCreationBANKEMI</span>
+                  <span class="parameters">(HDFC, BANK EMI ONLY, Normal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TIDCreationICICLRNM(ICICI, Loan Recovery + Normal Acquiring, Normal)">
+                  </a> <!-- TIDCreationICICLRNM(ICICI, Loan Recovery + Normal Acquiring, Normal) -->
+                  <span class="method-name">TIDCreationICICLRNM</span>
+                  <span class="parameters">(ICICI, Loan Recovery + Normal Acquiring, Normal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TIDCreationLR(HDFC, Loan Recovery Only, Normal)">
+                  </a> <!-- TIDCreationLR(HDFC, Loan Recovery Only, Normal) -->
+                  <span class="method-name">TIDCreationLR</span>
+                  <span class="parameters">(HDFC, Loan Recovery Only, Normal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TIDCreationLRwithNormal(HDFC, Loan Recovery + Normal Acquiring, Normal)">
+                  </a> <!-- TIDCreationLRwithNormal(HDFC, Loan Recovery + Normal Acquiring, Normal) -->
+                  <span class="method-name">TIDCreationLRwithNormal</span>
+                  <span class="parameters">(HDFC, Loan Recovery + Normal Acquiring, Normal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TIDCreationdefault(HDFC, Default, Normal)">
+                  </a> <!-- TIDCreationdefault(HDFC, Default, Normal) -->
+                  <span class="method-name">TIDCreationdefault</span>
+                  <span class="parameters">(HDFC, Default, Normal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TerminalCreationTest(gunjan1234, Pass@2020, ICT220-INGENICO, ICT220-11T3621A, Lalit.xml, EDC Printer, 48, 1184706, 102503...)">
+                  </a> <!-- TerminalCreationTest(gunjan1234, Pass@2020, ICT220-INGENICO, ICT220-11T3621A, Lalit.xml, EDC Printer, 48, 1184706, 102503...) -->
+                  <span class="method-name">TerminalCreationTest</span>
+                  <span class="parameters">(gunjan1234, Pass@2020, ICT220-INGENICO, ICT220-11T3621A, Lalit.xml, EDC Printer, 48, 1184706, 1025033)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TerminalCreationTestPAX(user8888, Qwert@123, PAX A920-ANDROID, A920 PAX, Lalit.xml, EDC Printer, 48, 1184698, 1183832)">
+                  </a> <!-- TerminalCreationTestPAX(user8888, Qwert@123, PAX A920-ANDROID, A920 PAX, Lalit.xml, EDC Printer, 48, 1184698, 1183832) -->
+                  <span class="method-name">TerminalCreationTestPAX</span>
+                  <span class="parameters">(user8888, Qwert@123, PAX A920-ANDROID, A920 PAX, Lalit.xml, EDC Printer, 48, 1184698, 1183832)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TerminalCreationTestVerifone(user8888, Qwert@123, Vx510-VERIFONE, Vx520 VERIFONE, Lalit.xml, EDC Printer, 48, 1184696, 1183834)">
+                  </a> <!-- TerminalCreationTestVerifone(user8888, Qwert@123, Vx510-VERIFONE, Vx520 VERIFONE, Lalit.xml, EDC Printer, 48, 1184696, 1183834) -->
+                  <span class="method-name">TerminalCreationTestVerifone</span>
+                  <span class="parameters">(user8888, Qwert@123, Vx510-VERIFONE, Vx520 VERIFONE, Lalit.xml, EDC Printer, 48, 1184696, 1183834)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMerchantCreation(gunjan1234, Pass@2020, DemoMerchant_14, Candor Techspace, 201010)">
+                  </a> <!-- TestMerchantCreation(gunjan1234, Pass@2020, DemoMerchant_14, Candor Techspace, 201010) -->
+                  <span class="method-name">TestMerchantCreation</span>
+                  <span class="parameters">(gunjan1234, Pass@2020, DemoMerchant_14, Candor Techspace, 201010)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToVerifyStoreApproval(user8888, Qwert@123)">
+                  </a> <!-- ToVerifyStoreApproval(user8888, Qwert@123) -->
+                  <span class="method-name">ToVerifyStoreApproval</span>
+                  <span class="parameters">(user8888, Qwert@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToVerifyStoreCreation(gunjan1234, Pass@2020, DemoMerchant_14, Noida, 201010)">
+                  </a> <!-- ToVerifyStoreCreation(gunjan1234, Pass@2020, DemoMerchant_14, Noida, 201010) -->
+                  <span class="method-name">ToVerifyStoreCreation</span>
+                  <span class="parameters">(gunjan1234, Pass@2020, DemoMerchant_14, Noida, 201010)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserManagement">
+                  </a> <!-- UserManagement -->
+                  <span class="method-name">UserManagement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\gunjan.varshney\AppData\Local\Temp\testng-eclipse-516709014\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pine.test.myMain.TestOne&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'POSupdate')
+data.setCell(0, 2, 'pine.test.myMain.TestOne')
+data.setCell(0, 3, 94709);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TerminalCreationTest')
+data.setCell(1, 2, 'pine.test.myMain.TestOne')
+data.setCell(1, 3, 88098);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TerminalCreationTestPAX')
+data.setCell(2, 2, 'pine.test.myMain.TestOne')
+data.setCell(2, 3, 83642);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TerminalCreationTestVerifone')
+data.setCell(3, 2, 'pine.test.myMain.TestOne')
+data.setCell(3, 3, 81021);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ToVerifyStoreApproval')
+data.setCell(4, 2, 'pine.test.myMain.TestOne')
+data.setCell(4, 3, 64384);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'MerchantApprovalTest')
+data.setCell(5, 2, 'pine.test.myMain.TestOne')
+data.setCell(5, 3, 59465);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ToVerifyStoreCreation')
+data.setCell(6, 2, 'pine.test.myMain.TestOne')
+data.setCell(6, 3, 57032);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TIDCreationdefault')
+data.setCell(7, 2, 'pine.test.myMain.TestOne')
+data.setCell(7, 3, 44428);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestMerchantCreation')
+data.setCell(8, 2, 'pine.test.myMain.TestOne')
+data.setCell(8, 3, 42044);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TIDCreationLRwithNormal')
+data.setCell(9, 2, 'pine.test.myMain.TestOne')
+data.setCell(9, 3, 41475);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TIDCreationLR')
+data.setCell(10, 2, 'pine.test.myMain.TestOne')
+data.setCell(10, 3, 40555);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TIDCreationICICLRNM')
+data.setCell(11, 2, 'pine.test.myMain.TestOne')
+data.setCell(11, 3, 40323);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'BankTIDRegisteration')
+data.setCell(12, 2, 'pine.test.myMain.TestOne')
+data.setCell(12, 3, 40117);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TIDCreationBANKEMI')
+data.setCell(13, 2, 'pine.test.myMain.TestOne')
+data.setCell(13, 3, 39395);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PVMAssociationTest')
+data.setCell(14, 2, 'pine.test.myMain.TestOne')
+data.setCell(14, 3, 34277);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'BinAssociationTest')
+data.setCell(15, 2, 'pine.test.myMain.TestOne')
+data.setCell(15, 3, 33307);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'RuleAssociationTest')
+data.setCell(16, 2, 'pine.test.myMain.TestOne')
+data.setCell(16, 3, 31990);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'PVMUploadTest')
+data.setCell(17, 2, 'pine.test.myMain.TestOne')
+data.setCell(17, 3, 31169);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'BinUploadTest')
+data.setCell(18, 2, 'pine.test.myMain.TestOne')
+data.setCell(18, 3, 29889);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'RuleUploadTest')
+data.setCell(19, 2, 'pine.test.myMain.TestOne')
+data.setCell(19, 3, 29651);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'BlockTid')
+data.setCell(20, 2, 'pine.test.myMain.TestOne')
+data.setCell(20, 3, 25038);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'UserManagement')
+data.setCell(21, 2, 'pine.test.myMain.TestOne')
+data.setCell(21, 3, 16387);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'SubSystemOnStore')
+data.setCell(22, 2, 'pine.test.myMain.TestOne')
+data.setCell(22, 3, 14348);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'LoginPageTest')
+data.setCell(23, 2, 'pine.test.myMain.TestOne')
+data.setCell(23, 3, 14328);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pine.test.myMain.TestOne</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoginPageTest(gunjan1234, Pass@2020)</span>
+                <span class="method-start">17003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestMerchantCreation(gunjan1234, Pass@2020, DemoMerchant_14, Candor Techspace, 201010)</span>
+                <span class="method-start">31438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MerchantApprovalTest(user8888, Qwert@123)</span>
+                <span class="method-start">73562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ToVerifyStoreCreation(gunjan1234, Pass@2020, DemoMerchant_14, Noida, 201010)</span>
+                <span class="method-start">133088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ToVerifyStoreApproval(user8888, Qwert@123)</span>
+                <span class="method-start">190195 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TerminalCreationTest(gunjan1234, Pass@2020, ICT220-INGENICO, ICT220-11T3621A, Lalit.xml, EDC Printer, 48, 1184706, 102503...)</span>
+                <span class="method-start">254641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TerminalCreationTestPAX(user8888, Qwert@123, PAX A920-ANDROID, A920 PAX, Lalit.xml, EDC Printer, 48, 1184698, 1183832)</span>
+                <span class="method-start">342794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TerminalCreationTestVerifone(user8888, Qwert@123, Vx510-VERIFONE, Vx520 VERIFONE, Lalit.xml, EDC Printer, 48, 1184696, 1183834)</span>
+                <span class="method-start">426484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TIDCreationdefault(HDFC, Default, Normal)</span>
+                <span class="method-start">507543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TIDCreationLR(HDFC, Loan Recovery Only, Normal)</span>
+                <span class="method-start">552017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TIDCreationLRwithNormal(HDFC, Loan Recovery + Normal Acquiring, Normal)</span>
+                <span class="method-start">592617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TIDCreationBANKEMI(HDFC, BANK EMI ONLY, Normal)</span>
+                <span class="method-start">634137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TIDCreationICICLRNM(ICICI, Loan Recovery + Normal Acquiring, Normal)</span>
+                <span class="method-start">673573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BlockTid</span>
+                <span class="method-start">713897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PVMUploadTest</span>
+                <span class="method-start">738936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PVMAssociationTest</span>
+                <span class="method-start">770106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RuleUploadTest</span>
+                <span class="method-start">804384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RuleAssociationTest</span>
+                <span class="method-start">834036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UserManagement</span>
+                <span class="method-start">866027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BinUploadTest</span>
+                <span class="method-start">882415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BinAssociationTest</span>
+                <span class="method-start">912306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">POSupdate</span>
+                <span class="method-start">945614 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BankTIDRegisteration</span>
+                <span class="method-start">1040325 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SubSystemOnStore</span>
+                <span class="method-start">1080443 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1094792 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
